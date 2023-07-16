@@ -1,0 +1,7 @@
+gp:
+  pop_size: 100
+  max_dim_prg: 10
+  epochs_in_evolution: 5
+  epochs_after_evolution: 0
+  lr: 0.1
+  enum_set: 'PLUS MINUS TIMES DIVIDE'

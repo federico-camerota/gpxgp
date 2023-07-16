@@ -1,0 +1,8 @@
+gp:
+  enum_set: PLUS MINUS TIMES DIVIDE
+  epochs_after_evolution: 0
+  epochs_in_evolution: 2
+  lr: 0.01
+  max_dim_prg: 10
+  n_iter: 66
+  pop_size: 100

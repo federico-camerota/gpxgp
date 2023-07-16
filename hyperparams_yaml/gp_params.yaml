@@ -1,0 +1,6 @@
+gp:
+  pop_size: 100
+  n_iter: 500
+  max_dim_prg: 10
+  enum_set: 'PLUS MINUS TIMES DIVIDE'
+

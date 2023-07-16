@@ -17,9 +17,9 @@ __contacts__: gloria.pietropolli@phd.units.it
 
 ## Instructions
 
-Code runs with Python __INSERT VERSION__ on Ubuntu 20.04.
+Code runs with Python 3.8 on Ubuntu 20.04.
 
-To install the required libraries, enter the following command __FEDE CREARE REQ.TXT__: 
+To install the required libraries, enter the following command: 
 
 ```bash
 pip install -r requirements.txt 

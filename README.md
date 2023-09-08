@@ -1,16 +1,9 @@
-# Parametrizing GP Trees for Better Symbolic Regression Performance through Gradient Descent
+# GP + Gradient Descent for Better Symbolic Regression Performance
 
-Python implementation for the paper "Parametrizing GP Trees for Better Symbolic Regression Performance through Gradient Descent"
-Federico Julian Camerota Verdù, Gloria Pietropolli, Luca Manzoni, Mauro Castelli. 
-_The Genetic and Evolutionary Computation Conference_ __GECCO 2023__
+Python implementation for embedding learnable parameters in GP programs and combining the standard GP evolutionary approach with a gradient-based refinement of the individuals employing the Adam optimizer. 
+We propose two different algorithms that differ in how these parameters are shared in the expression operators. 
 
-### Abstract
-Symbolic regression is a common problem in genetic programming (GP), but the syntactic search carried out by the standard GP algorithm often struggles to tune the learned expressions. On the other hand, gradient-based optimizers can efficiently tune parametric
-functions by exploring the search space locally. While there is a large amount of research on the combination of evolutionary algorithms and local search (LS) strategies, few of these studies deal with GP. To get the best from both worlds, we propose embedding learnable parameters in GP programs and combining the standard GP evolutionary approach with a gradient-based refinement of the
-individuals employing the Adam optimizer. We devise two different algorithms that differ in how these parameters are shared in the expression operators and report experimental results performed on a set of standard real-life application datasets. Our findings show that the proposed gradient-based LS approach can be effectively combined with GP to outperform the original algorithm.
-
-link to the paper: https://drive.google.com/file/d/1AFN1ubYF5um8AVzI8l6RzPgzMufe16vZ/view?usp=sharing
-
+link to the conference paper: https://drive.google.com/file/d/1AFN1ubYF5um8AVzI8l6RzPgzMufe16vZ/view?usp=sharing
 link to the poster: https://drive.google.com/file/d/17h8WIzMIrItwWuC3YuoZ6W8pcDYJ16if/view?usp=sharing
 
 __contacts__: gloria.pietropolli@phd.units.it
